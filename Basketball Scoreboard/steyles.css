@@ -1,0 +1,106 @@
+body, html{
+  height: 100%;
+  margin: 0;
+}
+
+h1{
+  color: rgb(255, 255, 255);
+  margin: 0;
+}
+
+button{
+  font-size: 25px;
+  padding: 15px 25px;
+  background-color: transparent;
+  border-radius: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.bg {  
+  background-image: url("images/Background.jpg");  
+  height: 100%;   
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.board{    
+  background-color: #1B244A; 
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid  #9AABD8; ;
+  border-radius: 20px;
+  line-height: 90px;
+}
+
+.timer{
+  width: fit-content;
+  background-color: #000000;
+  margin-inline: auto;
+  padding: 0px 30px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.timer-content {
+  font-family: 'Cursed Timer ULiL';
+  font-weight: 400;
+  font-size: 50px;
+  color: #adf802;
+  font-family: "Score Board";
+}
+
+
+.scoreboard{
+  display: flex;
+  flex-direction:row; 
+  justify-content: center;
+  
+}
+
+.hometeam{
+  margin-right: 80px;
+  text-align: center;
+}
+
+.awayteam{
+  margin-left: 80px;
+  text-align: center;
+  
+}
+
+.scorehome, .scoreaway{
+  background-color: black;
+  font-size: 100px;
+  border-radius: 30px;
+  color: red;
+  line-height: 150px;
+  font-family: "Score Board";  
+}
+
+
+.scoreuper > button {
+  color: #9AABD8;
+  font-family: "Score Board";
+  font-weight: bold;
+}
+
+.star{
+  color: #9AABD8;
+  font-family: "Score Board";
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+
+
+
+
+@font-face {
+  font-family: Score Board;
+  src: url("fonts/scoreboard.ttf");
+}

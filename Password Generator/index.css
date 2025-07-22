@@ -1,0 +1,77 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #1C1C1C;
+    font-weight: bold;
+    
+}
+
+button{    
+    background-color: #273549;
+    color: #4ADF86;
+    width: 150px;
+    border-radius: 15px;
+    border: none;
+    padding: 15px 0;
+    margin-top: 20px;
+    margin-right: 40px;  
+    margin-bottom: 20px;  
+    cursor: pointer;
+}
+
+p{
+    color:  gainsboro;
+    margin-top: -10px; 
+}
+
+hr{
+    margin-right: 40px;
+}
+
+.UpStage{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    border: 5px solid white;
+    background-color: #1F2937;
+    padding-top: 50px;
+    padding-bottom: 75px;
+    padding-left: 50px;
+    border-radius: 20px;
+    
+}
+
+#h1up{
+    color: white;    
+}
+
+#h1down{
+    color: #4ADF86;   
+    margin-top: -20px; 
+}
+
+#buttontop{
+    background-color: #4ADF86;
+    color: white;
+    width: 150px;
+    border-radius: 15px;
+    border: none;
+    padding: 10px 0;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#status-el{
+    color: #4ADF86;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+
+
+
+#checkbox {  
+  accent-color: #4ADF86; 
+  cursor: pointer;
+}
+

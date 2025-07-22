@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="steyles.css">
+       
+    </head>
+    <body>
+        <div class="bg">
+            <main class="board">
+                <div class="timer">
+                    <h1 class="timer-content">12:00</h1>
+                </div>
+
+                <div class="scoreboard">
+
+                    <div class= "hometeam">
+                        <h1>HOME</h1>
+                        <h1 class="scorehome"> 0 </h1>      
+                        <div class="scoreuper">
+                            <button onclick="UpdateSkore('hometeam', 'one')">+1</button>
+                            <button onclick="UpdateSkore('hometeam', 'two')">+2</button>
+                            <button onclick="UpdateSkore('hometeam', 'three')">+3</button>
+
+                        </div>
+                    </div >
+
+                    <div class= "awayteam">
+                        <h1>AWAY</h1>
+                        <h1 class="scoreaway"> 0 </h1>
+                        <div class="scoreuper">
+                            <button onclick="UpdateSkore('awayteam', 'one')">+1</button>
+                            <button onclick="UpdateSkore('awayteam', 'two')">+2</button>
+                            <button onclick="UpdateSkore('awayteam', 'three')">+3</button>
+                        </div>
+                    </div >
+                </div>
+
+                <button class="star" onclick="StartTimer()">STAR</button>
+            </main>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
