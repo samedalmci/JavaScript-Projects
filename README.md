@@ -19,8 +19,8 @@ Tarayıcı üzerinden oynanabilen basit bir Blackjack oyunu. Kart değerleri, el
 
 <img width="450" height="654" alt="Ekran görüntüsü 2025-07-22 195953" src="https://github.com/user-attachments/assets/957050b3-ec19-4f3d-b645-a7e28bcaab91" />
 
-🔢 Counter App
-Artır, azalt ve sıfırla butonları ile çalışan kullanıcı dostu bir sayaç. Event Listener kullanımı ve DOM manipülasyonu için temel bir örnek.
+🌐 URL Copy Chrome Extension
+Bu proje, tarayıcıda bulunduğun sayfanın URL’sini tek tıklamayla panoya kopyalamanı sağlayan bir Chrome uzantısıdır.
 
 
 <img width="450" height="217" alt="Ekran görüntüsü 2025-07-25 040339" src="https://github.com/user-attachments/assets/086b82c1-2c97-4f5b-8bac-fe2c6ae2b8ec" />
