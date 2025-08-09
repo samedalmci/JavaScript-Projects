@@ -129,8 +129,8 @@ input[type="radio"]{
     position: fixed;
     margin: auto;
     top: 80px;
-    left: 0;
-    right: 0;
+    left: 0px;
+    right: 700px;
     align-items: center;
     justify-content: center;
     border: 1px solid rgb(25, 52, 53);
