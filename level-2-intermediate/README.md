@@ -6,8 +6,8 @@
       - Basit ve çoklu birim dönüşümü<br>
       - İnteraktif kullanıcı arayüzü
     </td>
-    <td>
-      <img src="https://github.com/user-attachments/assets/9a267c1a-0137-43be-80e5-63fda2428856" width="300" alt="Unit Converter">
+    <td>      
+      <img width="300" alt="Ekran görüntüsü 2025-08-09 170915" src="https://github.com/user-attachments/assets/f61ce80c-f75e-44d5-aa02-f3841b8f822f" />  
     </td>
   </tr>
   <tr>
@@ -17,7 +17,6 @@
       - Harf, sayı ve özel karakter kombinasyonları<br>
       - Kopyalama özelliği
     </td>
-    <td>
-      <img src="https://github.com/user-attachments/assets/c93f962f-013d-4aa1-8e03-683f15d1bf16" width="300" alt="Password Generator">
+    <td><img width="300" alt="Ekran görüntüsü 2025-08-09 171417" src="https://github.com/user-attachments/assets/f6ab6cec-5d61-4bb9-ab3b-33df23703449" />     
     </td>
 
