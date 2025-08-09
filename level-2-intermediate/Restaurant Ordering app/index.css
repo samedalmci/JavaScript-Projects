@@ -1,0 +1,156 @@
+body {
+    margin: 30px auto;
+    width: 600px;
+    font-family: "Smythe"
+} 
+
+header{
+    display:flex;    
+}
+
+.burgerImage{
+    
+    width: 600px;
+    height: 167px;
+    object-fit: cover;
+    position: relative;
+}
+
+.headerText{
+    position:absolute;
+    color:white;
+    font-family: "Smythe";
+    padding-left: 50px;
+    padding-top: 25px;
+}
+
+
+/*Main*/
+.foodCard{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid gray;
+    padding: 30px 0;
+}
+
+.emojiWrapper {
+    width: 50px;
+    text-align: center;
+    font-size: 48px;
+}
+
+.food-info {   
+    width: 200px;
+}
+
+.food-info h2, .food-info p {
+    margin: 5px 0;
+}
+
+.buttonWrapper {
+    width: 50px;
+    text-align: center;
+}
+
+.plusButton {
+    cursor: pointer;
+    font-size: 24px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.plusButton:hover{
+    background-color: #dbdbdb;
+}
+
+.removebtn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: gray;
+    text-align: center;
+}
+
+.removebtn:hover{
+    background-color: #dbdbdb;
+    border-radius: 40px;
+}
+
+.totalprice{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end; 
+}
+
+
+
+
+/*Order Sagment*/
+.yourorderh1{
+    text-align: center;
+}
+
+.greenbutton{
+    width: 600px;
+    padding: 20px 150px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #16DB99;
+    border: none;    
+    
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+.greenbutton:hover  {
+    background-color: #015c3f;
+}
+
+
+
+.modal {
+    display: none;
+    position: fixed;
+    inset: 0; /* top:0, right:0, bottom:0, left:0 */
+    justify-items: center;
+    align-content: center;  
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    padding: 20px;
+}
+
+.modal > div {
+    background: white;
+    border: 2px solid black;
+    padding: 50px;    
+    max-width: 600px;
+    width: 100%;
+}
+
+
+input{
+    padding: 25px;
+    margin-top: 15px ;
+    min-width: 550px;
+    max-width: 550px;
+}
+
+
+
+
+
+
+.thxbox{
+    margin-top: 20px;
+    background-color: #ECFDF5;
+    text-align: center;
+    color: #065F46;
+    font-size: 20px;
+    padding: 30px;
+}

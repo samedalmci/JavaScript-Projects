@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Smythe&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img class="burgerImage" src="Image/headerPage.jpg" alt="">
+            <div class="headerText">
+                <h2>Samed's Diner</h2>
+                <h3>The best burgers and pizzas in town.</h3>
+            </div>
+        </header>
+        <main>
+
+            <div class="foodDiv" id="foodDiv"></div>
+
+            <div class="OrderDiv" id="OrderDiv"></div>  
+
+
+
+
+            <div id="orderpop" class="modal">
+                <div class="entercard">
+                    <h2 class="yourorderh1">Enter card details</h2>                    
+                    <input id="textname" type="text" placeholder="Enter your name" maxlength="15">
+                    <input type="text" placeholder="Enter card number" maxlength="11">
+                    <input type="password" placeholder="Enter CVV" maxlength="3">
+                    <button class="greenbutton" id="strbtn">Pay</button>
+                </div>
+            </div>
+            
+        </main>
+
+        <script src="index.js" type="module"></script>
+    </body>
+</html>

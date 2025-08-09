@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+}
+
+/*typography*/
+
+h1, h2, h3{
+    text-align: center;
+}
+
+h1, h2{
+    color: #EED6D3;
+    margin: 0;
+}
+
+h1{
+    font-size: 38px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3{
+    margin: 25px;
+}
+
+
+
+/* Header */
+.pumpkin-img{
+    width: 150px;
+}
+
+.header-inner{
+    display: flex;   
+    align-items: center;     
+    justify-content: center; 
+    background-color: cadetblue;
+}
+
+
+/* Body */
+main{
+    text-align: center;
+}
+
+.gifs-check{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px;
+}
+
+.emotion-radios{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    border: 1px solid #bcbcbc;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.radio{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #bcbcbc;
+    padding: 4px 8px;
+}
+
+
+.radio:first-child{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.radio:last-child{
+    border-bottom: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+label{
+    font-size: 14px;
+    padding: 3px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.highlight{
+    background-color: #fff0ee;
+    color: cadetblue;
+    font-weight: bold;
+    accent-color: cadetblue;
+}
+
+input[type="radio"]{
+    cursor: pointer;
+}
+
+.gifs-check{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px;
+}
+
+.gifs-check-label{
+    width: unset;
+    margin-right: 5px;
+}
+
+#get-image-btn{
+    background-color: cadetblue;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 150px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+
+/* modal */
+.meme-modal{
+    display: none; 
+    position: fixed;
+    margin: auto;
+    top: 80px;
+    left: 0;
+    right: 0;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(25, 52, 53);
+    border-radius: 5px;
+    width: 420px;
+    height: 490px;
+    background-color: cadetblue;
+}
+
+.cat-img{
+    max-width: 340px;
+    max-height: 420px;
+    border-radius: 5px;
+}
+
+.meme-modal-close-btn{
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    background-color: transparent;
+    border: 2px solid #555;
+    color: #555;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 14px;
+}
+
+.meme-modal-close-btn:hover{
+    color: white;
+    background-color: #cf6f62;
+    border: 2px solid #855a54;
+}
